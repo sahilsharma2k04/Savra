@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api/dashboard",
+  baseURL: "https://savra-e3iu.onrender.com/api/dashboard",
 });
 
 API.interceptors.request.use((config) => {
